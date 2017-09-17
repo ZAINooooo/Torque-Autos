@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:gravity="right"
+            android:layout_weight="0.21"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/details"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="26dp"
+                android:id="@+id/imageView5"
+                android:src="@drawable/wish"/>
+        </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="TOYOTA HILUX VIGO 2010"
+                android:id="@+id/textView17"
+                android:textStyle="bold"
+                android:layout_weight="0.03" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView17"
+      />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Vehicle Overview"
+        android:id="@+id/textView18"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_weight="0.03" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/imageView4"
+        android:layout_below="@+id/textView18"
+        />
+
+    <LinearLayout
+        android:id="@+id/big"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="82dp"
+            android:weightSum="1"
+            android:paddingTop="10dp"
+            android:layout_weight="0.41">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.16">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FOB PRICE"
+                    android:id="@+id/textView22"
+                    android:textSize="10dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STOCK"
+                    android:id="@+id/textView23"
+                    android:textSize="10dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COLOR"
+                    android:textStyle="bold"
+                    android:id="@+id/textView24"
+                    android:textSize="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAKE"
+                    android:textStyle="bold"
+                    android:id="@+id/textView25"
+                    android:textSize="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MODEL"
+                    android:textStyle="bold"
+                    android:id="@+id/textView26"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10,200$"
+                    android:id="@+id/textView29"
+                    android:textSize="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1912"
+                    android:id="@+id/textView30"
+                    android:textSize="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SILVER"
+                    android:id="@+id/textView31"
+                    android:textSize="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOYOTA"
+                    android:id="@+id/textView32"
+                    android:textSize="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HILUX VIGO"
+                    android:id="@+id/textView33"
+                    android:textSize="10dp"/>
+
+
+                </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="95dp"
+            android:background="@android:color/darker_gray"
+            android:id="@+id/imageView8" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="119dp"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                android:layout_weight="2.09">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YEAR"
+                    android:textStyle="bold"
+                    android:id="@+id/textView34"
+                    android:textSize="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ENGINE(CC)"
+                    android:textStyle="bold"
+                    android:id="@+id/textView35"
+                    android:textSize="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STEERING"
+                    android:textStyle="bold"
+                    android:id="@+id/textView36"
+                    android:textSize="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TRANSMISSION"
+                    android:textStyle="bold"
+                    android:id="@+id/textView37"
+                    android:singleLine="true"
+                    android:textSize="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CHASING NO"
+                    android:textStyle="bold"
+                    android:id="@+id/textView38"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STATUS"
+                    android:textStyle="bold"
+                    android:id="@+id/textView39"
+                    android:textSize="10dp"/>
+                </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="82dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2010"
+                    android:id="@+id/textView40"
+
+                    android:textSize="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2500"
+                    android:id="@+id/textView41"
+                    android:textSize="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RIGHT "
+                    android:id="@+id/textView43"
+                    android:textSize="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MANUAL"
+                    android:id="@+id/textView44"
+                    android:textSize="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ASK-00"
+                    android:id="@+id/textView45"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SALE"
+                    android:id="@+id/textView46"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+                </LinearLayout>
+        </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/imageView7"
+        android:layout_below="@+id/big"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SEND INQUIRY :"
+        android:textStyle="bold"
+        android:id="@+id/textView56"
+        android:textSize="18sp"
+        android:layout_weight="0.04" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/imageView49"
+        android:layout_below="@+id/textView56"
+        />
+
+    <EditText
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:hint="ENTER YOUR MESSAGE HERE:"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/imageView67"
+        android:layout_below="@+id/editText3"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.65"
+        android:gravity="bottom|center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/inquiry"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="Send Inquiry" />
+
+        <Button
+            android:id="@+id/Addtocart"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="Add to Cart"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+

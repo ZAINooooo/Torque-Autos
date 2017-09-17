@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asim.customlistview">
+
+
+
+
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/AppTheme"
+        android:icon="@drawable/logo"
+        android:fullBackupContent="@xml/backup_descriptor">
+
+        <activity android:name=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="TorqueAuto" >
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Top" >
+        </activity>
+        <activity android:name=".Register" >
+        </activity>
+        <activity android:name=".Login" >
+        </activity>
+        <activity android:name=".Profile" >
+        </activity>
+        <activity android:name=".Settings" >
+
+        </activity>
+        <activity android:name=".wishlist_work.Wish" >
+        </activity>
+
+
+        <activity android:name=".IMachinerynquiry" >
+        </activity>
+
+        <activity android:name=".Singapore" >
+        </activity>
+        <activity android:name=".Thailand" >
+        </activity>
+        <activity android:name=".Japan" >
+        </activity>
+        <activity android:name=".MoreDetails" >
+        </activity>
+
+
+        <activity
+            android:name=".cart.cartlist"
+            android:label="@string/title_activity_my_cart" >
+        </activity>
+        <activity
+            android:name=".Cart"
+            android:label="@string/title_activity_cart" >
+        </activity>
+
+
+        <activity android:name=".Email.MainActivity"
+            android:label="Send Email">
+        </activity>
+
+
+
+        <activity android:name=".wishlist_work.Shopping"
+            android:label="Shopping Cart">
+
+        </activity>
+
+
+        <activity
+            android:name=".Login_Register_Profile.activities.LoginActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Login_Register_Profile.activities.RegisterActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".Login_Register_Profile.activities.UsersListActivity"
+            android:screenOrientation="portrait" />
+
+
+
+        <activity android:name=".Home"
+                  android:label="Home Screen">
+
+        </activity>
+
+        <!--duskysoutionfirebasechatapp-->
+
+        <activity android:name=".FireBaseChatApplication.MainActivity">
+        </activity>
+
+
+
+        <activity
+            android:name=".Login_Register_Profile.activities.Edit_Password"
+            android:screenOrientation="portrait">
+            </activity>
+
+
+    </application>
+
+</manifest>

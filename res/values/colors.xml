@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textMessageTime">#D8D8D8</color>
+    <color name="MessageBackgroundSelf">#DCF8C6</color>
+    <color name="MessageBackgroundOther">#FFFFFF</color>
+    <color name="DarkGreen">#006400 </color>
+
+
+
+
+
+        <color name="colorPrimary">#51d8c7</color>
+        <color name="colorPrimaryDark">#51d8c7</color>
+        <color name="colorAccent">#FFFFFF</color>
+        <color name="colorBackground">#413e4f</color>
+        <color name="colorText">#FFFFFF</color>
+        <color name="colorTextHint">#51d8c7</color>
+
+
+
+
+    <color name="color_gray_light_content_text">#5d5d5d</color>
+    <color name="color_divider_line_gray">#e2e2e2</color>
+
+    <color name="green">#00a651</color>
+    <color name="zaaa">#00FFFFFF</color>
+
+
+
+    </resources>
+
+

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">CustomListView</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_top">Top</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_wish">Wish</string>
+    <string name="title_activity_mail_us">MailUs</string>
+    <string name="title_activity_imachinerynquiry">IMachinerynquiry</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_fragment_parenttab1">FragmentParenttab1</string>
+    <string name="title_activity_fragment_parenttab2">FragmentParenttab2</string>
+    <string name="title_activity_singapore">Singapore</string>
+    <string name="title_activity_thailand">Thailand</string>
+    <string name="title_activity_japan">Japan</string>
+    <string name="title_activity_more_details">MoreDetails</string>
+    <string name="title_activity_my_cart">MyCart</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="title_activity_live_chat">LiveChat</string>
+
+
+
+
+    <string name="expand">expand</string>
+    <string name="shrink">shrink</string>
+    <string name="tips">This is a custom TextView that can be expanded with a smooth transition animation,you can set the number of lines to expand,change its icon or text and so on\n</string>
+
+
+
+
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Android Tutorials Hub</string>
+    <string name="error_email_does_not_exist">Record Does Not Exist</string>
+
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="title_activity_chat">ChatActivity</string>
+        <string name="message_hint">Type a message </string>
+    <string name="password_for_from_email">Password (For from email)</string>
+    <string name="from_email">From Email</string>
+    <string name="to_email">To Email</string>
+    <string name="subject">Subject</string>
+    <string name="body">Body</string>
+    <string name="send_email">Send Email</string>
+    <string name="from_emails">From Email</string>
+    <string name="send_mail">Send Mail</string>
+    <string name="message">Message</string>
+    <string name="mail_us">Mail Us</string>
+    <string name="password_for_from_emails">Password (For from email)</string>
+    <string name="to_emailz">To Email</string>
+    <string name="subjects">Subject</string>
+    <string name="bodies">Body</string>
+    <string name="title_to">title</string>
+    <string name="title_cc">cc</string>
+    <string name="title_bcc">bcc</string>
+    <string name="title_subject">sub</string>
+    <string name="duskysolution2_gmail_com">duskysolution2@gmail.com</string>
+
+
+</resources>

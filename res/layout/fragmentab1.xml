@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="0.03">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation ="horizontal"
+        android:layout_weight="0.11"
+        android:gravity="bottom"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/back"
+        android:id="@+id/backlinear">
+
+        <EditText
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:paddingLeft="3dp"
+            android:layout_height="25dp"
+            android:textSize="16dp"
+            android:hint="Search use cars from....."
+            android:drawableLeft="@drawable/search2"
+            android:background="#f3f6f4" />
+
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioAndroid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rbtn_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:text="Thailand&#10;Stock"
+            android:textColor="@drawable/rbtn_textcolor_selector" />
+
+        <RadioButton
+            android:id="@+id/radioiPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rbtn_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:text="Singapore&#10;Store"
+            android:textColor="@drawable/rbtn_textcolor_selector" />
+
+        <RadioButton
+            android:id="@+id/radioWindows"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rbtn_selector"
+            android:button="@null"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Japan&#10;Stock"
+            android:textColor="@drawable/rbtn_textcolor_selector" />
+    </RadioGroup>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:background="#D3D3D3"
+        android:gravity="center"
+        android:id="@+id/Hotoff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Hot"
+            android:id="@+id/textView17"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#708090" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Offers"
+            android:id="@+id/textView15"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:textColor="#ff0000" />
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridhot"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_weight="0.17"
+        android:background="#D3D3D3"
+        android:gravity="center"
+        android:horizontalSpacing="0dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth" />
+
+
+    <LinearLayout
+        android:id="@+id/latest"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:background="#D3D3D3"
+        android:gravity="center"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Latest"
+            android:id="@+id/textView18"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#708090" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Offers"
+            android:paddingLeft="5dp"
+            android:id="@+id/textView19"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#ff0000" />
+
+    </LinearLayout>
+
+    <GridView
+        android:numColumns="3"
+        android:gravity="center"
+        android:background="#D3D3D3"
+        android:stretchMode="columnWidth"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:horizontalSpacing="0dp"
+        android:id="@+id/gridnew"
+        android:layout_weight="0.40" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="284dp"
+        android:id="@+id/listViewsam"
+        android:visibility="gone" />
+
+
+</LinearLayout>
+
+
+
+
+

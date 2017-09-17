@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    android:paddingRight="1dp"
+    >
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fork"
+            android:layout_weight="5.10" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_toEndOf="@+id/thumbnail" />
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#343434"
+        android:textSize="12dip"
+        android:text=""
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type G"
+        android:id="@+id/textView20"
+        android:textStyle="bold"
+        android:layout_above="@+id/textView21"
+        android:layout_toRightOf="@+id/artist"
+        android:layout_toEndOf="@+id/artist" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Series:118Clc"
+        android:textStyle="bold"
+        android:id="@+id/textView21"
+        android:layout_above="@+id/button4"
+        android:layout_toRightOf="@+id/artist"
+        android:layout_toEndOf="@+id/artist" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Inquiry"
+        android:id="@+id/button4"
+        android:textSize="10sp"
+        android:layout_alignBottom="@+id/thumbnail"
+        android:layout_toRightOf="@+id/artist"
+        android:layout_alignRight="@+id/textView21"
+        android:layout_alignEnd="@+id/textView21" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/wish"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignTop="@+id/button4" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="BuyNow"
+        android:id="@+id/button6"
+        android:textSize="10sp"
+        android:layout_alignTop="@+id/button4"
+        android:layout_toRightOf="@+id/button4" />
+
+    <!-- Rightend Duration -->
+
+
+
+</RelativeLayout>

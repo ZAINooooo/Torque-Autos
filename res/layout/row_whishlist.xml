@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:id="@+id/rowItem"
+        android:orientation="horizontal"
+        android:background="#c3c3c3c3"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userimage"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_centerVertical="true"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:id="@+id/name"/>
+
+            <com.example.asim.customlistview.wishlist_work.view.TextViewExpandableAnimation
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:tvea_expandBitmap="@drawable/icon_green_arrow_down"
+                app:tvea_expandLines="1"
+                app:tvea_shrinkBitmap="@drawable/icon_green_arrow_up"
+                app:tvea_textContentColor="@color/color_gray_light_content_text"
+                app:tvea_textContentSize="@dimen/sp_txt_size_content"
+                app:tvea_textExpand="@string/expand"
+                app:tvea_textShrink="@string/shrink"
+                app:tvea_textStateColor="@color/zaaa" />
+
+            <LinearLayout
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                >
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/whishlist"
+                    android:text="Update List"
+
+                    android:textColor="@color/green" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
